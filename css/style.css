@@ -58,5 +58,10 @@ h2, p, h4{
     padding: 5px;
 }
 .info_2{
+    vertical-align: middle;
     float: right;
+}
+.info_2 p{
+
+    vertical-align: middle;
 }
