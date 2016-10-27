@@ -1,5 +1,5 @@
 body{
-    background-color: #f5f5f5 ;
+    background-color: #f2f2f2 ;
 
 }
 html, body, .container{
@@ -64,7 +64,17 @@ h2, p, h4{
 .info_1{
     padding: 5px;
 }
-
+#sezione2{
+    padding-top: 5px;
+}
 .info_2  {
  float: right;
+}
+.banner{
+    background-color: #78878a;
+    padding: 5px;
+    padding-left: 20px;
+}
+.sezione2_1{
+    padding-left: 0px;
 }
