@@ -54,14 +54,13 @@ h2, p, h4{
 .testi_grassetto{
     font-weight: bold;
 }
+.testi_verdi{
+    color: #00694f;
+}
 .info_1{
     padding: 5px;
 }
-.info_2{
-    vertical-align: middle;
-    float: right;
-}
-.info_2 p{
 
-    vertical-align: middle;
+.info_2  {
+ float: right;
 }
