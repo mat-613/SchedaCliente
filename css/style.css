@@ -48,3 +48,15 @@ body{
 .titoli{
     color: #ffffff;
 }
+h2, p, h4{
+    display: inline;
+}
+.testi_grassetto{
+    font-weight: bold;
+}
+.info_1{
+    padding: 5px;
+}
+.info_2{
+    float: right;
+}
