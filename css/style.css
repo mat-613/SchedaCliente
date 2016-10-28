@@ -96,13 +96,18 @@ body{
 #altreRelazioni{
     margin-top: 20px;
 }
+#contatti{
+    margin-left: 1px;
+}
+.div_bianchi{
+    background-color: #ffffff;
+}
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
     background-color: #78878a;
 }
 .banner_laterale{
-    background-color: white;
     padding: 3px;
     padding-left:  20px;
     margin-bottom: 6px;
