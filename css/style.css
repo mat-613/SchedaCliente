@@ -81,3 +81,13 @@ h2, p, h4{
 .div_datipersonali{
     padding: 15px;
 }
+.black_line{
+    height: 5px;
+    background-color: #78878a;
+    margin-top: 5px;
+}
+.banner_laterale{
+    background-color: white;
+    padding: 3px;
+    padding-left:  20px;
+}
