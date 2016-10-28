@@ -93,6 +93,9 @@ body{
 .row_iniziale{
     padding-left: 0px;
 }
+#altreRelazioni{
+    margin-top: 20px;
+}
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
