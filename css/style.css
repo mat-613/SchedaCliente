@@ -1,9 +1,13 @@
 body{
+    height: 100%;
     background-color: #f2f2f2 ;
+}
+html, .container{
+    height: 100%;
 }
 /*CSS footer*/
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
