@@ -2,6 +2,9 @@ body{
     background-color: #f2f2f2 ;
 
 }
+html, body, .container{
+    height: 100%;
+}
 /*CSS footer*/
 .footer {
     position: absolute;
@@ -48,16 +51,9 @@ body{
 .titoli{
     color: #ffffff;
 }
-#info_persona h2{
+h2, p, h4{
     display: inline;
 }
-#info_persona p{
-    display: inline;
-}
-#info_persona h4{
-    display: inline;
-}
-
 .testi_grassetto{
     font-weight: bold;
     color: #3c4749;
@@ -85,13 +81,13 @@ body{
 .div_datipersonali{
     padding: 15px;
 }
-.row_iniziale{
-    padding-left: 0px;
+.black_line{
+    height: 5px;
+    background-color: #78878a;
+    margin-top: 5px;
 }
-.dati_interni{
-    margin: 0px;
-}
-.valori{
-    font-weight: bold;
-    margin-left: 5px;
+.banner_laterale{
+    background-color: white;
+    padding: 3px;
+    padding-left:  20px;
 }
