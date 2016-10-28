@@ -134,4 +134,7 @@ html, .container{
 #segno_inline p{
     display: inline;
 }
+.informazioni_banner .row{
+    padding-bottom: 4px;
+}
 /*Fine Parte laterale Sezione 2*/
