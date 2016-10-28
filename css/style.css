@@ -84,6 +84,7 @@ body{
     padding: 15px;
 }
 .dati_interni{
+    padding-top: 3px;
     margin: 0px;
 }
 .valori{
@@ -107,6 +108,10 @@ body{
 .banner_laterale{
     padding: 3px;
     padding-left:  20px;
+    padding-right:  20px;
     margin-bottom: 6px;
+}
+.img-responsive{
+    margin: auto;
 }
 /*Fine Parte laterale Sezione 2*/
