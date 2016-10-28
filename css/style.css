@@ -130,4 +130,11 @@ html, .container{
 .img-responsive{
     margin: auto;
 }
+.informazioni_banner{
+    padding: 15px;
+    margin-bottom: 6px;
+}
+#segno_inline p{
+    display: inline;
+}
 /*Fine Parte laterale Sezione 2*/
