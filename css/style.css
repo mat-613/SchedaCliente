@@ -121,6 +121,7 @@ html, .container{
     display: inline;
 }
 #sinistri p{
+    padding-left: 5px;
     display: inline;
 }
 .titoli_ultima_sezione{
@@ -129,10 +130,13 @@ html, .container{
 }
 .profilo_assicurativo{
     background-color: #f2f2f2;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .profilo_assicurativo_1{
     background-clip: content-box;
+}
+.profilo_assicurativo_1 p{
+    margin-left: 10px;
 }
 /*Parte laterale Sezione 2*/
 .black_line{
