@@ -116,6 +116,23 @@ html, .container{
 #profilo_assicurativo{
     padding-right: 0px;
 }
+#polizze p{
+    display: inline;
+}
+#sinistri p{
+    display: inline;
+}
+.titoli_ultima_sezione{
+    display: inline;
+    float: right;
+}
+.profilo_assicurativo{
+    background-color: #f2f2f2;
+    margin-top: 5px;
+}
+.profilo_assicurativo_1{
+    background-clip: content-box;
+}
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
