@@ -131,12 +131,19 @@ html, .container{
 .profilo_assicurativo{
     background-color: #f2f2f2;
     margin-top: 15px;
+    min-height: 180px;
 }
 .profilo_assicurativo_1{
     background-clip: content-box;
 }
 .profilo_assicurativo_1 p{
     margin-left: 10px;
+}
+.prima_row{
+    padding-top: 10px;
+}
+.ultima_row{
+    padding-bottom: 10px;
 }
 /*Parte laterale Sezione 2*/
 .black_line{
