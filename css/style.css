@@ -80,6 +80,7 @@ html, .container{
     background-color: #78878a;
     padding: 5px;
     padding-left: 20px;
+    margin-top: 10px;
 }
 .sezione2_1{
     padding-left: 0px;
@@ -121,7 +122,6 @@ html, .container{
     display: inline;
 }
 #sinistri p{
-    padding-left: 5px;
     display: inline;
 }
 .titoli_ultima_sezione{
@@ -136,6 +136,9 @@ html, .container{
 .profilo_assicurativo_1{
     background-clip: content-box;
 }
+#distanza_fondo{
+    margin-bottom: 70px;
+}
 .profilo_assicurativo_1 p{
     margin-left: 10px;
 }
@@ -149,12 +152,14 @@ html, .container{
 .black_line{
     height: 5px;
     background-color: #78878a;
+    margin-top: 10px;
 }
 .banner_laterale{
     padding: 3px;
     padding-left:  20px;
     padding-right:  20px;
     margin-bottom: 6px;
+    margin-top: 3px;
 }
 .img-responsive{
     margin: auto;
