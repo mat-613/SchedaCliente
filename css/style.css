@@ -1,3 +1,4 @@
+/*Elementi comuni*/
 body{
     height: 120%;
     background-color: #f2f2f2 ;
@@ -5,6 +6,53 @@ body{
 html, .container{
     height: 105%;
 }
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.testi_grassetto{
+    font-weight: bold;
+    color: #3c4749;
+}
+.testi_verdi{
+    color: #00694f;
+}
+.risultati_verdi{
+    margin-top: 15px;
+    color: #00694f;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+.div_bianchi{
+    background-color: #ffffff;
+}
+.dati_interni{
+    padding-top: 3px;
+    margin: 0px;
+}
+.valori{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.row_iniziale{
+    padding-left: 0px;
+}
+.titoli_ultima_sezione{
+    display: inline;
+    float: right;
+}
+.banner{
+    background-color: #78878a;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.titoli{
+    color: #ffffff;
+}
+/*Fine elementi comuni*/
+/*------------------------------------------------------------------*/
 /*CSS footer*/
 .footer {
     position: fixed;
@@ -19,6 +67,7 @@ html, .container{
     text-align: center;
 }
 /*fine css footer*/
+/*------------------------------------------------------------------*/
 /*CSS header*/
 .head{
     padding-left: 0%;
@@ -41,15 +90,10 @@ html, .container{
     background-color: white;
 }
 /*fine css header*/
-.row{
-    margin-left: 0%;
-    margin-right: 0%;
-}
+/*------------------------------------------------------------------*/
+/*Corpo centrale*/
 #info_persona{
     background-color: #cbdc00;
-}
-.titoli{
-    color: #ffffff;
 }
 #info_persona h2{
     display: inline;
@@ -60,13 +104,6 @@ html, .container{
 #info_persona h4{
     display: inline;
 }
-.testi_grassetto{
-    font-weight: bold;
-    color: #3c4749;
-}
-.testi_verdi{
-    color: #00694f;
-}
 .info_1{
     padding: 5px;
 }
@@ -76,12 +113,6 @@ html, .container{
 .info_2  {
  float: right;
 }
-.banner{
-    background-color: #78878a;
-    padding: 5px;
-    padding-left: 20px;
-    margin-top: 10px;
-}
 .sezione2_1{
     padding-left: 0px;
     padding-right: 0px;
@@ -90,29 +121,8 @@ html, .container{
     padding: 15px;
     padding-top: 20px;
 }
-.dati_interni{
-    padding-top: 3px;
-    margin: 0px;
-}
-.valori{
-    font-weight: bold;
-    margin-left: 5px;
-}
-.row_iniziale{
-    padding-left: 0px;
-}
 #altreRelazioni{
     margin-top: 20px;
-}
-.div_bianchi{
-    background-color: #ffffff;
-}
-.risultati_verdi{
-    margin-top: 15px;
-    color: #00694f;
-    font-weight: bold;
-    position: absolute;
-    bottom: 0;
 }
 .risultati_verdi p{
     padding-top: 0px;
@@ -126,10 +136,6 @@ html, .container{
 }
 #sinistri p{
     display: inline;
-}
-.titoli_ultima_sezione{
-    display: inline;
-    float: right;
 }
 .profilo_assicurativo{
     background-color: #f2f2f2;
@@ -154,13 +160,8 @@ html, .container{
 .div_prof_comm{
     min-height: 195px;
 }
-@media only screen and (min-width: 480px) and (max-width: 1000px) {
-    .container{
-        margin-right: 0px;
-        margin-left: 0px;
-        width:auto;
-    }
-}
+/*fine Corpo Centrale*/
+/*------------------------------------------------------------------*/
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
@@ -194,3 +195,14 @@ html, .container{
     padding-bottom: 4px;
 }
 /*Fine Parte laterale Sezione 2*/
+/*------------------------------------------------------------------*/
+/*Risoluzione schermi piccoli*/
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+        width:auto;
+    }
+}
+/*FIne Risoluzione schermi piccoli*/
+/*------------------------------------------------------------------*/
