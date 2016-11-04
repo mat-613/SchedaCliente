@@ -154,6 +154,13 @@ html, .container{
 .div_prof_comm{
     min-height: 195px;
 }
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+        width:auto;
+    }
+}
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
