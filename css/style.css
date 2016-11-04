@@ -179,8 +179,9 @@ html, .container{
 #laterale{
     padding-right: 0px;
 }
+/*allineamento con le altre sezioni a destra dei banner laterali*/
 .abbassa_banner{
-    margin-top: 18px;
+    margin-top: 18.5px;
 }
 .informazioni_banner .row{
     padding-bottom: 4px;
