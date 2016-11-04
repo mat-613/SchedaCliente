@@ -148,6 +148,7 @@ html, .container{
 #distanza_fondo{
     margin-bottom: 70px;
     padding-left: 0px;
+    padding-top: 0px;
 }
 .profilo_assicurativo_1 p{
     margin-left: 10px;
@@ -163,6 +164,14 @@ html, .container{
 }
 #polizzeup{
     background-clip: padding-box;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+#sinistri1{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 /*fine Corpo Centrale*/
 /*------------------------------------------------------------------*/
