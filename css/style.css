@@ -147,6 +147,7 @@ html, .container{
 }
 #distanza_fondo{
     margin-bottom: 70px;
+    padding-left: 0px;
 }
 .profilo_assicurativo_1 p{
     margin-left: 10px;
@@ -159,6 +160,9 @@ html, .container{
 }
 .div_prof_comm{
     min-height: 195px;
+}
+#polizzeup{
+    background-clip: padding-box;
 }
 /*fine Corpo Centrale*/
 /*------------------------------------------------------------------*/
