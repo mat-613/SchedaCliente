@@ -42,7 +42,17 @@ html, .container{
     display: inline;
     float: right;
 }
+.banner{
+    background-color: #78878a;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.titoli{
+    color: #ffffff;
+}
 /*Fine elementi comuni*/
+/*------------------------------------------------------------------*/
 /*CSS footer*/
 .footer {
     position: fixed;
@@ -57,6 +67,7 @@ html, .container{
     text-align: center;
 }
 /*fine css footer*/
+/*------------------------------------------------------------------*/
 /*CSS header*/
 .head{
     padding-left: 0%;
@@ -79,11 +90,10 @@ html, .container{
     background-color: white;
 }
 /*fine css header*/
+/*------------------------------------------------------------------*/
+/*Corpo centrale*/
 #info_persona{
     background-color: #cbdc00;
-}
-.titoli{
-    color: #ffffff;
 }
 #info_persona h2{
     display: inline;
@@ -103,12 +113,6 @@ html, .container{
 .info_2  {
  float: right;
 }
-.banner{
-    background-color: #78878a;
-    padding: 5px;
-    padding-left: 20px;
-    margin-top: 10px;
-}
 .sezione2_1{
     padding-left: 0px;
     padding-right: 0px;
@@ -120,7 +124,6 @@ html, .container{
 #altreRelazioni{
     margin-top: 20px;
 }
-
 .risultati_verdi p{
     padding-top: 0px;
     margin: 0px;
@@ -157,6 +160,8 @@ html, .container{
 .div_prof_comm{
     min-height: 195px;
 }
+/*fine Corpo Centrale*/
+/*------------------------------------------------------------------*/
 /*Parte laterale Sezione 2*/
 .black_line{
     height: 5px;
@@ -190,6 +195,7 @@ html, .container{
     padding-bottom: 4px;
 }
 /*Fine Parte laterale Sezione 2*/
+/*------------------------------------------------------------------*/
 /*Risoluzione schermi piccoli*/
 @media only screen and (min-width: 480px) and (max-width: 1000px) {
     .container{
@@ -199,3 +205,4 @@ html, .container{
     }
 }
 /*FIne Risoluzione schermi piccoli*/
+/*------------------------------------------------------------------*/
