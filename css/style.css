@@ -251,6 +251,10 @@ html, .container{
     #contatti .row{
         padding-left: 0px;
     }
+    .logo{
+        height: 100%;
+        width: 100%;
+    }
     .info_1{
         padding-left: 0px;
     }
