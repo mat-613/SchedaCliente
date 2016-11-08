@@ -58,7 +58,7 @@ html, .container{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #ffffff;
 }
 .footer .container {
@@ -218,10 +218,15 @@ html, .container{
 /*------------------------------------------------------------------*/
 /*Risoluzione schermi piccoli*/
 
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
 
     .logo{
         max-width: 70%;
+    }
+   #responsive_sinistra {
+        padding-top: 0px;
+        padding-left: 0px;
+        float: left;
     }
     .container{
         margin-right: 0px;
@@ -243,6 +248,9 @@ html, .container{
         margin-bottom: 30px;
     }
     #contatti .row{
+        padding-left: 0px;
+    }
+    .info_1{
         padding-left: 0px;
     }
 
