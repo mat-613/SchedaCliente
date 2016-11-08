@@ -1,4 +1,5 @@
 /*Elementi comuni*/
+
 body{
     height: 120%;
     background-color: #f2f2f2 ;
@@ -175,6 +176,7 @@ html, .container{
 .spazietto_div{
     margin-top: 3px;
 }
+
 /*fine Corpo Centrale*/
 /*------------------------------------------------------------------*/
 /*Parte laterale Sezione 2*/
@@ -198,6 +200,7 @@ html, .container{
 }
 #laterale{
     padding-right: 0px;
+    padding-left: 10px;
 }
 /*allineamento con le altre sezioni a destra dei banner laterali*/
 .abbassa_banner{
@@ -214,13 +217,17 @@ html, .container{
 /*Fine Parte laterale Sezione 2*/
 /*------------------------------------------------------------------*/
 /*Risoluzione schermi piccoli*/
-@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
     .container{
         margin-right: 0px;
         margin-left: 0px;
-        width:auto;
-    }
+        width:100%;
 
+    }
+    #laterale{
+        padding-left: 0px;
+    }
 
 }
 /*FIne Risoluzione schermi piccoli*/
