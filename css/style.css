@@ -1,5 +1,4 @@
 /*Elementi comuni*/
-
 body{
     height: 120%;
     background-color: #f2f2f2 ;
@@ -71,8 +70,8 @@ html, .container{
 /*------------------------------------------------------------------*/
 /*CSS header*/
 .head{
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #head1{
     padding-top: 20px;
@@ -185,6 +184,9 @@ html, .container{
     background-color: #78878a;
     margin-top: 10px;
 }
+.img-centrale{
+    margin: auto;
+}
 .banner_laterale{
     padding: 3px;
     padding-left: 20px;
@@ -200,7 +202,6 @@ html, .container{
 }
 #laterale{
     padding-right: 0px;
-    padding-left: 10px;
 }
 /*allineamento con le altre sezioni a destra dei banner laterali*/
 .abbassa_banner{
