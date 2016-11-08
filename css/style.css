@@ -159,7 +159,6 @@ html, .container{
 }
 .div_prof_comm{
     min-height: 195px;
-    margin-botto: 30px;
 }
 #polizzeup{
     background-clip: padding-box;
@@ -229,6 +228,21 @@ html, .container{
     #laterale{
         padding-left: 0px;
     }
+
+    #contatti{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .div_prof_comm{
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    #contatti .row{
+        padding-left: 0px;
+    }
+
+
 
 }
 /*FIne Risoluzione schermi piccoli*/
