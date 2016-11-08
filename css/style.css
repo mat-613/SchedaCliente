@@ -30,6 +30,7 @@ html, .container{
 .dati_interni{
     padding-top: 3px;
     margin: 0px;
+    max-height: 50px;
 }
 .valori{
     font-weight: bold;
