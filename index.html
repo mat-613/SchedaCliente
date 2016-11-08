@@ -13,10 +13,15 @@
 <div class="jumbotron">
     <div class="container">
         <div class="col-md-12 col-xs-12 head" id="head1" >
-            <img src="img/cruscotto_clienti.png">
-            <div class="logo">
-                <img src="img/logo.jpeg" class="img-responsive logo">
+            <div class="col-md-6 col-xs-6 row_iniziale">
+                <img src="img/cruscotto_clienti.png" class="img-responsive">
             </div>
+            <div class="col-md-6 col-xs-6 ">
+                <div class="logo">
+                    <img src="img/logo.jpeg" class="img-responsive logo">
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -37,16 +42,20 @@
                     <h2 class="testi_verdi">(2356315)</h2>
                 </div>
 
-            <div class="col-md-12 col-xs-12 info_1">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 info_1">
 
-                    <div class="col-md-6 col-xs-6 row_iniziale">
+                    <div class="col-md-6 col-xs-12 row_iniziale">
                         <h4 class="testi_verdi">PERSONA FISICA</h4>
                         <p>nato a</p>
                         <p class="testi_grassetto">Roma 01/05/1980</p>
+                        <br><!--temporaneo-->
+                        <h4 class="testi_verdi">CODICE FISCALE</h4>
+                        <p class="testi_grassetto">RSSMRO80092B116Z</p>
                     </div>
 
 
-                    <div class="col-md-6 col-xs-6">
+                    <div class="col-md-6 col-xs-12">
                         <div class="row info_2 sezione2_1">
                             <p>Numero anagrafiche:</p>
                             <h4 class="testi_verdi">01</h4>
@@ -54,10 +63,11 @@
                     </div>
 
                 </div>
-                <div class="row info_1">
-                <h4 class="testi_verdi">CODICE FISCALE</h4>
-                    <p class="testi_grassetto">RSSMRO80092B116Z</p>
-                </div>
+
+
+
+            </div>
+
         </div>
     </div>
     <!--FINE sezione 1 Nome, Cognome, CF-->
@@ -66,14 +76,16 @@
     <div class="row" id="sezione2">
 
         <!-- sezione 2 DATI, PROFILO COMMERCIALE-->
-        <div class="col-md-9 col-xs-9 sezione2_1">
+        <div class="col-md-9 col-xs-12 sezione2_1">
 
             <!--sezione dati personali-->
             <div class="row banner">
                 <h5 class="titoli">DATI PERSONALI</h5>
             </div>
+
+            <!-- sezione DATI SOCIO ANAGRAFICI -->
             <div class="row div_datipersonali div_bianchi" >
-                <div class="col-md-4 col-xs-4 row_iniziale">
+                <div class="col-md-4 col-xs-6 row_iniziale">
                     <div class="row">
                     <img src="img/dati_socio-anagrafici.png">
                     </div>
@@ -94,7 +106,10 @@
                         <p class="valori dati_interni">impiegato</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4" >
+                <!-- FINE sezione DATI SOCIO ANAGRAFICI -->
+
+                <!-- sezione RELAZIONI FAMILIARI -->
+                <div class="col-md-4 col-xs-6" >
                     <div class="row">
                     <img src="img/relazioni_familiari.png">
                     </div>
@@ -106,7 +121,10 @@
                         <img src="img/altre_relazioni.png">
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4" id="contatti">
+                <!-- FINE sezione RELAZIONI FAMILIARI -->
+
+                <!-- sezione CONTATTI -->
+                <div class="col-md-4 col-xs-6" id="contatti">
                     <div class="row">
                         <img src="img/contatti.png">
                     </div>
@@ -129,6 +147,7 @@
 
                     </div>
                 </div>
+                <!-- FINE sezione CONTATTI -->
             </div>
             <!--FINE sezione dati personali-->
 
@@ -137,7 +156,7 @@
                 <h5 class="titoli">PROFILO COMMERCIALE</h5>
             </div>
             <div class="row div_datipersonali div_bianchi">
-                <div class="col-md-3 col-xs-3 row_iniziale div_prof_comm">
+                <div class="col-md-3 col-xs-6 row_iniziale div_prof_comm">
                     <div class="row">
                         <p class="dati_interni">Segmento</p>
                         <p class="valori dati_interni">ARGENTO</p>
@@ -151,10 +170,10 @@
                         <p>MATEMATICHE</p>
                     </div>
                 </div>
-                <div class="col-md-1 col-xs-1">
+                <div class="col-md-1 col-xs-0">
 
                 </div>
-                <div class="col-md-2 col-xs-2 div_prof_comm">
+                <div class="col-md-2 col-xs-6 div_prof_comm">
                     <div class="row">
                         <p class="dati_interni">Sottosegmento</p>
                         <p class="valori dati_interni">AAA</p>
@@ -168,7 +187,7 @@
                         <p>INCASSI DANNI</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-xs-2 div_prof_comm">
+                <div class="col-md-2 col-xs-6 div_prof_comm">
                     <div class="row">
                         <p class="dati_interni">Punteggio</p>
                         <p class="valori dati_interni">AAA</p>
@@ -182,7 +201,7 @@
                         <p>INCASSI VITA</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-xs-2 div_prof_comm">
+                <div class="col-md-2 col-xs-6 div_prof_comm">
                     <div class="row">
                         <p>Anzianità</p>
                         <p>xx</p>
@@ -196,7 +215,7 @@
                         <p>INCASSI POLIZZE</p>
                     </div>
                 </div>
-                <div class="col-md-1 col-xs-1 div_prof_comm">
+                <div class="col-md-1 col-xs-6 div_prof_comm">
                     <div class="row">
                         <p>Sinistri</p>
                         <p>1</p>

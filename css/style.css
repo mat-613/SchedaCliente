@@ -77,9 +77,7 @@ html, .container{
     padding-top: 20px;
 }
 .logo{
-    display: inline-block;
-    max-height: 40%;
-    max-width: 40%;
+    max-width: 55%;
     float: right;
 }
 .jumbotron{
@@ -161,6 +159,7 @@ html, .container{
 }
 .div_prof_comm{
     min-height: 195px;
+    margin-botto: 30px;
 }
 #polizzeup{
     background-clip: padding-box;
@@ -189,9 +188,6 @@ html, .container{
     padding-left:  20px;
     padding-right:  20px;
     margin-bottom: 6px;
-}
-.img-responsive{
-    margin: auto;
 }
 .informazioni_banner{
     padding: 15px;
